@@ -6,6 +6,8 @@ precauções-para-gotículas
 indicações-1
 precauções-para-aerossóis
 indicações-2
+indicações-de-coleta-de-swabs-de-vigilância
+orientações-para-admissão-de-pacientes
 referências
 cross
 momentos-indicados
@@ -25,3 +27,5 @@ casos-confirmados-de-covid-19
 testes-diagnósticos
 períodos-de-isolamento
 referências-2
+uso-racional-de-antimicrobianos
+profilaxia-cirúrgica

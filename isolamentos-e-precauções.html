@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capítulo 2 Isolamentos e Precauções | Programa para Controle de Infecção Hospitalar HSA</title>
+  <title>Capítulo 2 Isolamentos e Precauções | Uso Racional de Antimicrobianos</title>
   <meta name="description" content="Protocolos Operacionais Padrão - SCIH, Hospital Santo Amaro - Guarujá-SP" />
   <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capítulo 2 Isolamentos e Precauções | Programa para Controle de Infecção Hospitalar HSA" />
+  <meta property="og:title" content="Capítulo 2 Isolamentos e Precauções | Uso Racional de Antimicrobianos" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Protocolos Operacionais Padrão - SCIH, Hospital Santo Amaro - Guarujá-SP" />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capítulo 2 Isolamentos e Precauções | Programa para Controle de Infecção Hospitalar HSA" />
+  <meta name="twitter:title" content="Capítulo 2 Isolamentos e Precauções | Uso Racional de Antimicrobianos" />
   
   <meta name="twitter:description" content="Protocolos Operacionais Padrão - SCIH, Hospital Santo Amaro - Guarujá-SP" />
   
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/viz-1.8.2/viz.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/grViz-binding-1.0.9/grViz.js"></script>
 
 
 
@@ -87,7 +91,9 @@
 <ul>
 <li class="chapter" data-level="2.3.1" data-path="isolamentos-e-precauções.html"><a href="isolamentos-e-precauções.html#indicações-2"><i class="fa fa-check"></i><b>2.3.1</b> <strong>Indicações</strong></a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="isolamentos-e-precauções.html"><a href="isolamentos-e-precauções.html#referências"><i class="fa fa-check"></i><b>2.4</b> Referências</a></li>
+<li class="chapter" data-level="2.4" data-path="isolamentos-e-precauções.html"><a href="isolamentos-e-precauções.html#indicações-de-coleta-de-swabs-de-vigilância"><i class="fa fa-check"></i><b>2.4</b> Indicações de Coleta de Swabs de Vigilância</a></li>
+<li class="chapter" data-level="2.5" data-path="isolamentos-e-precauções.html"><a href="isolamentos-e-precauções.html#orientações-para-admissão-de-pacientes"><i class="fa fa-check"></i><b>2.5</b> Orientações para Admissão de Pacientes</a></li>
+<li class="chapter" data-level="2.6" data-path="isolamentos-e-precauções.html"><a href="isolamentos-e-precauções.html#referências"><i class="fa fa-check"></i><b>2.6</b> Referências</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="cross.html"><a href="cross.html"><i class="fa fa-check"></i><b>3</b> Higiene das mãos</a>
 <ul>
@@ -115,6 +121,10 @@
 <li class="chapter" data-level="4.3" data-path="prevenção-da-covid-19.html"><a href="prevenção-da-covid-19.html#períodos-de-isolamento"><i class="fa fa-check"></i><b>4.3</b> Períodos de Isolamento</a></li>
 <li class="chapter" data-level="4.4" data-path="prevenção-da-covid-19.html"><a href="prevenção-da-covid-19.html#referências-2"><i class="fa fa-check"></i><b>4.4</b> Referências</a></li>
 </ul></li>
+<li class="chapter" data-level="5" data-path="uso-racional-de-antimicrobianos.html"><a href="uso-racional-de-antimicrobianos.html"><i class="fa fa-check"></i><b>5</b> Uso Racional de Antimicrobianos</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="uso-racional-de-antimicrobianos.html"><a href="uso-racional-de-antimicrobianos.html#profilaxia-cirúrgica"><i class="fa fa-check"></i><b>5.1</b> Profilaxia Cirúrgica</a></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -127,7 +137,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Programa para Controle de Infecção Hospitalar HSA</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Uso Racional de Antimicrobianos</a>
           </h1>
         </div>
 
@@ -145,10 +155,7 @@
 <div id="precauções-de-contato" class="section level2 hasAnchor" number="2.1">
 <h2><span class="header-section-number">2.1</span> Precauções de contato<a href="isolamentos-e-precauções.html#precauções-de-contato" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Estas precauções visam prevenir a transmissão de microorganismos epidemiologicamente importantes a partir de pacientes infectados ou colonizados para outros pacientes, profissionais, visitantes, acompanhantes, por meio de contato direto (tocando o paciente e estabelecendo a transmissão pessoa por pessoas) ou indireto (ao tocar superfícies contaminadas próximas ao paciente ou por meio de artigo e equipamentos).</p>
-<p>Obs. Preferencialmente o paciente deverá ficar em quarto individual, ou realizar a precaução por coorte, sempre manter pacientes em precaução por contato juntos para não haver risco de contaminação cruzada de pacientes. Esse paciente deverá possuir material individualizado (estetoscópio, termômetro, etc…).
-Sempre que este paciente for realizar um procedimento fora da unidade, avisar com antecedência que trata-se de um paciente em precaução de contato.
-O profissional que for realizar o transporte desse paciente deverá estar paramentado e ao termino realizar a desinfecção da cadeira de rodas com álcool 70%.
-As visitas devem ser restritas e orientadas em relação aos cuidados a estes pacientes.</p>
+<p>Obs. Preferencialmente o paciente deverá ficar em quarto individual, ou realizar a precaução por coorte, sempre manter pacientes em precaução por contato juntos para não haver risco de contaminação cruzada de pacientes. Esse paciente deverá possuir material individualizado (estetoscópio, termômetro, etc…). Sempre que este paciente for realizar um procedimento fora da unidade, avisar com antecedência que trata-se de um paciente em precaução de contato. O profissional que for realizar o transporte desse paciente deverá estar paramentado e ao termino realizar a desinfecção da cadeira de rodas com álcool 70%. As visitas devem ser restritas e orientadas em relação aos cuidados a estes pacientes.</p>
 <ul>
 <li>A ordem que correta para paramentação é a seguinte:</li>
 </ul>
@@ -163,8 +170,8 @@ As visitas devem ser restritas e orientadas em relação aos cuidados a estes pa
 <h3><span class="header-section-number">2.1.1</span> Indicações<a href="isolamentos-e-precauções.html#indicações" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <table>
 <colgroup>
-<col width="15%" />
-<col width="84%" />
+<col width="23%" />
+<col width="76%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -190,28 +197,39 @@ As visitas devem ser restritas e orientadas em relação aos cuidados a estes pa
 <p>Estas precauções visam prevenir a transmissão de microorganismos por via respiratória por partículas maiores que 5 micra de pacientes com doença transmissível, geradas pela tosse, espirro e durante a fala. Essas gotículas (&gt; 5 micra) podem se depositar a curta distância (1 a 1,5 m).</p>
 <div id="indicações-1" class="section level3 hasAnchor" number="2.2.1">
 <h3><span class="header-section-number">2.2.1</span> <strong>Indicações</strong><a href="isolamentos-e-precauções.html#indicações-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Pacientes portadores ou com infecção por microorganismos transmissíveis por gotículas,
-que podem ser gerados por tosse, espirro, conversação. Exemplos: parotidite,
-coqueluche, difteria, rubéola, meningite por meningococos, síndrome aguda
-respiratória grave (por Influenza).</p>
+<p>Pacientes portadores ou com infecção por microorganismos transmissíveis por gotículas, que podem ser gerados por tosse, espirro, conversação. Exemplos: parotidite, coqueluche, difteria, rubéola, meningite por meningococos, síndrome aguda respiratória grave (por Influenza).</p>
 </div>
 </div>
 <div id="precauções-para-aerossóis" class="section level2 hasAnchor" number="2.3">
 <h2><span class="header-section-number">2.3</span> Precauções para aerossóis<a href="isolamentos-e-precauções.html#precauções-para-aerossóis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>São medidas adotadas para pacientes com suspeita ou diagnóstico de infecção transmitida por via aérea (partículas &lt; 5 micra), que podem ficar suspensas no ar ou ressecadas no ambiente.</p>
-<p>O ar deste quarto é considerado contaminado, as portas desta acomodação deverão permanecer fechadas.
-É obrigatório o uso de máscara tipo respirador (N95 ou PFF2).
-Colocar a máscara antes de entrar no quarto e retirar após fechar a porta (quando sair).
-Após o uso sempre acondicionar em saco plástico (preferencialmente o próprio do produto) com nome e identificação do profissional.
-A máscara é de uso individual e deverá ser trocada a cada 07 dias.
-Durante o transporte utilize máscara cirúrgica no paciente. Após liberação de pacientes dos leitos de isolamento por aerossóis, os mesmos devem ser deixados ociosos pelo período mínimo de 2h. Após este período deve ser realizada limpeza terminal para liberação do leito</p>
+<p>O ar deste quarto é considerado contaminado, as portas desta acomodação deverão permanecer fechadas. É obrigatório o uso de máscara tipo respirador (N95 ou PFF2). Colocar a máscara antes de entrar no quarto e retirar após fechar a porta (quando sair). Após o uso sempre acondicionar em saco plástico (preferencialmente o próprio do produto) com nome e identificação do profissional. A máscara é de uso individual e deverá ser trocada a cada 07 dias. Durante o transporte utilize máscara cirúrgica no paciente. Após liberação de pacientes dos leitos de isolamento por aerossóis, os mesmos devem ser deixados ociosos pelo período mínimo de 2h. Após este período deve ser realizada limpeza terminal para liberação do leito</p>
 <div id="indicações-2" class="section level3 hasAnchor" number="2.3.1">
 <h3><span class="header-section-number">2.3.1</span> <strong>Indicações</strong><a href="isolamentos-e-precauções.html#indicações-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Precaução de aerossóis:COVID-19, tuberculose, varicela, sarampo, herpes-zoster disseminado, coronavírus. Consultar SCIH de acordo com a situação epidemiológica.</p>
 </div>
 </div>
-<div id="referências" class="section level2 hasAnchor" number="2.4">
-<h2><span class="header-section-number">2.4</span> Referências<a href="isolamentos-e-precauções.html#referências" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="indicações-de-coleta-de-swabs-de-vigilância" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Indicações de Coleta de Swabs de Vigilância<a href="isolamentos-e-precauções.html#indicações-de-coleta-de-swabs-de-vigilância" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Unidades de Terapia Intensiva Adulto:</strong></p>
+<ul>
+<li><p>Pacientes procedentes de outras unidades de saúde com permanência superior à 48h, com ou sem dispositivos invasivos</p></li>
+<li><p>Pacientes Institucionalizados (Casas de Repouso, Privados de Liberdade,etc.)</p></li>
+<li><p>Pacientes Dialíicos procedentes de outras instituições</p></li>
+</ul>
+<p><strong>Unidades de Internação Pediátricas/Neonatal:</strong></p>
+<ul>
+<li><p>Pacientes procedentes de outras unidades de saúde com permanência superior à 48h, com ou sem procedimentos invasivos.</p></li>
+<li><p>Contexto de suspeita de surtos de infecções nosocomiais, a critério do SCIH e equipe assistente.</p></li>
+</ul>
+</div>
+<div id="orientações-para-admissão-de-pacientes" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> Orientações para Admissão de Pacientes<a href="isolamentos-e-precauções.html#orientações-para-admissão-de-pacientes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="htmlwidget-0b5d7399811788c5f951" style="width:672px;height:500px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0b5d7399811788c5f951">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"Avaliar se indicação de coleta de Swabs de Vigilância \n\n  Paciente procedente de outra instituição >48h permanência?\"]\n  rec2 [label = \"Avaliar se há possibilidade de retirada e/ou troca de dispositivos externos invasivos\"]\n  rec3 [label =  \"Avaliar se há suspeita de infecção em atividade: coleta de culturas sangue/urina/sec. traqueal apenas se suspeita infecciosa.\"]\n  rec4 [label = \"Indicar precaução de contato se indicada coleta de swab de vigilância e/ou culturas invasivas\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="referências" class="section level2 hasAnchor" number="2.6">
+<h2><span class="header-section-number">2.6</span> Referências<a href="isolamentos-e-precauções.html#referências" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Associação Paulista de Estudos e Controle de Infecção Hospitalar – APECIH. Precauções e isolamento. São Paulo; 2012.</p>
 <p>Isolamentos e Precauções, ANVISA, Acesso em 04/04/2022 <a href="http://anvisa.gov.br/servicosaude/IIseminario_2008/precaucoesemservicosdesaude_eduardomedeiros.pdf" class="uri">http://anvisa.gov.br/servicosaude/IIseminario_2008/precaucoesemservicosdesaude_eduardomedeiros.pdf</a></p>
 <p>Siegel JD, Rhinehart E, Jackson M, Chiarello L, and The Healthcare Infection Control Practices Advisory Committee, 2007 Guideline for Isolation Precautions: Preventing Transmission of Infectious Agents in Healthcare Settings, June 2007 <a href="https://www.cdc.gov/infectioncontrol/guidelines/isolation" class="uri">https://www.cdc.gov/infectioncontrol/guidelines/isolation</a></p>
