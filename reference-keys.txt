@@ -37,4 +37,12 @@ monkeypox
 definição-de-caso
 prevenção-da-infecção
 período-de-isolamento
+diagnóstico
 tratamento
+referências-4
+uti-pediátrica-neonatal
+coleta-de-swabs-de-vigilância
+microorganismos-considerados-para-indicação-de-precauções-de-contato
+recomendações-gerais
+fluxograma-sugerido-para-swabs-de-vigilância
+referências-5
