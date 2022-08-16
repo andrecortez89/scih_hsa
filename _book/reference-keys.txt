@@ -57,13 +57,11 @@ precaução-aerossóis
 períodos-de-isolamento-1
 hospitalização
 referências-5
-recomendações-para-período-de-permanência-de-dispositivos
+dispositivos-recomendações-para-período-de-permanênciatroca
 recomendações-gerais-1
 recomendações-para-catéteres
 sistemas-de-infusão
 curativos-em-feridas-e-drenos
 sistema-urinário
 sistema-respiratório
-section
-section-1
-section-2
+sistemas-para-infusão-enteral
