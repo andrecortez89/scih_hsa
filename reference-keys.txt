@@ -34,6 +34,10 @@ prevenção-de-infecções-nas-uti
 infecção-do-trato-urinário
 recomendações-gerais
 síntese-das-recomendações-para-a-prevenção-da-itu-associada-à-cvd-bundle
+infecções-de-corrente-sanguínea
+pacote-de-medidas-relacionadas-à-inserção-de-catéter-venoso-central
+section
+síntese-do-bundle-cvc
 sífilis-congênita-sífilis-em-gestantes
 testagemmanejo-da-sífilis-no-rn-exposto
 referências-3
@@ -56,6 +60,7 @@ prevenção-de-infecção
 precaução-aerossóis
 períodos-de-isolamento-1
 hospitalização
+manejo-de-rn-expostos-a-tuberculose-pulmonar
 referências-5
 dispositivos-recomendações-para-período-de-permanênciatroca
 recomendações-gerais-1
