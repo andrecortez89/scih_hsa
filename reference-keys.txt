@@ -29,6 +29,7 @@ períodos-de-isolamento
 referências-2
 uso-racional-de-antimicrobianos
 orientações-gerais-para-prescrição
+tratamento-empírico-de-casos-de-sepsechoque-séptico
 profilaxia-cirúrgica
 prevenção-de-infecções-nas-uti
 infecção-do-trato-urinário
