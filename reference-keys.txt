@@ -42,8 +42,13 @@ síntese-do-bundle-cvc
 pneumonia-relacionada-à-ventilação-mecânica-pav
 pacote-bundle-para-prevenção-da-pav
 referências-3
+rn-exposto-sífilishiv
 sífilis-congênita-sífilis-em-gestantes
 testagemmanejo-da-sífilis-no-rn-exposto
+manejo-de-recém-nascidos-expostos-ao-hiv
+classificação-de-risco-de-exposição-ao-hiv
+diagnóstico-de-infecção-pelo-hiv-em-crianças-com-menos-de
+utlização-de-antirretroviral-na-profilaxia-de-criança-exposta-conforme-idade-gestacional-ig-e-risco-de-exposição
 referências-4
 monkeypox
 definição-de-caso
