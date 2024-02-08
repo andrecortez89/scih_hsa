@@ -31,6 +31,19 @@ uso-racional-de-antimicrobianos
 orientações-gerais-para-prescrição
 tratamento-empírico-de-casos-de-sepsechoque-séptico
 profilaxia-cirúrgica
+protocolo-para-coleta-de-culturas
+coleta-de-hemoculturas
+volume-de-sangue-recomendado
+neonatos-a-1-ano-1-kg-1-a-2ml-sempre-que-possível-coletar-pelo-menos-1ml
+hemodiálise
+diagnóstico
+manifestações-clínicas
+critérios-diagnósticos
+tratamento-empírico
+antibióticos-sugeridos
+tabela-de-antimicrobianos-e-indicações
+conclusão
+este-documento-fornece-um-guia-para-o-diagnóstico-e-tratamento-empírico-das-infecções-relacionadas-à-hemodiálise-visando-a-melhoria-dos-cuidados-ao-paciente-e-a-redução-da-morbidade-e-mortalidade-associadas-a-essas-infecções.
 prevenção-de-infecções-nas-uti
 infecção-do-trato-urinário
 recomendações-gerais
@@ -55,7 +68,7 @@ definição-de-caso
 prevenção-da-infecção
 cuidados-com-gestantes-rn-exposto
 período-de-isolamento
-diagnóstico
+diagnóstico-1
 tratamento
 referências-5
 comunicação-interna-de-doença-de-notificação-compulsória
@@ -66,7 +79,7 @@ tuberculose-pulmonar
 definições-1
 sintomático-respiratório-na-população-geral
 caso-suspeito
-diagnóstico-1
+diagnóstico-2
 coleta-de-amostras
 imagem
 prevenção-de-infecção
