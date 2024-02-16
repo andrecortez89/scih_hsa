@@ -35,8 +35,12 @@ protocolo-para-coleta-de-culturas
 coleta-de-hemoculturas
 volume-de-sangue-recomendado
 neonatos-a-1-ano-1-kg-1-a-2ml-sempre-que-possível-coletar-pelo-menos-1ml
-hemodiálise
+manejo-das-arboviroses
 diagnóstico
+sinais-de-alarme
+sinais-de-choque
+hemodiálise
+diagnóstico-1
 manifestações-clínicas
 critérios-diagnósticos
 tratamento-empírico
@@ -68,7 +72,7 @@ definição-de-caso
 prevenção-da-infecção
 cuidados-com-gestantes-rn-exposto
 período-de-isolamento
-diagnóstico-1
+diagnóstico-2
 tratamento
 referências-5
 comunicação-interna-de-doença-de-notificação-compulsória
@@ -79,7 +83,7 @@ tuberculose-pulmonar
 definições-1
 sintomático-respiratório-na-população-geral
 caso-suspeito
-diagnóstico-2
+diagnóstico-3
 coleta-de-amostras
 imagem
 prevenção-de-infecção
